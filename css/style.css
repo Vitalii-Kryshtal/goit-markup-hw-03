@@ -167,7 +167,8 @@ background-color: #f4f4fd;
     display: flex;
     width: 1128px;
     gap: 24px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    padding-left: 0;
 }
 .advantages-list {
     list-style-type: none;
