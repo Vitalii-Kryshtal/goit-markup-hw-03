@@ -173,6 +173,7 @@ background-color: #f4f4fd;
     list-style-type: none;
     width: calc((100% - 72px) / 4)
     width: 264px;
+    padding-left: 0;
 }
 .advantages-title {
     font-weight: 500;
@@ -224,6 +225,7 @@ background-color: #f4f4fd;
     margin-bottom: 0;
     justify-content: center;
     width: calc((100% - 72px) / 4)
+    padding-left: 0;
 }
 .team-list-box {
     background: #fff;
