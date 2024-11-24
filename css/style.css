@@ -271,6 +271,7 @@ background-color: #f4f4fd;
 }
 .footer {
     background: #2e2f42;
+    padding: 100px 0;
 }
 .logo-footer {
     font-weight: 700;
@@ -282,6 +283,8 @@ background-color: #f4f4fd;
     text-align: left;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .accent-footer {
     color: #f4f4fd;
@@ -292,4 +295,6 @@ background-color: #f4f4fd;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 264px;
+    margin: 0;
 }
