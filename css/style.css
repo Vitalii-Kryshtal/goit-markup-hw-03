@@ -147,13 +147,13 @@ background-color: #f4f4fd;
 
 .list-description {
     display: flex;
-    width: 1128;
+    width: 1128px;
     gap: 24px;
     margin: 0 auto; 
 }
 .advantages-list {
     list-style-type: none;
-    width: calc((100% - 3 * 24px) / );
+    width: calc((100% - 3 * 24px) / 4);
     width: 264px;
 }
 .advantages-title {
@@ -194,7 +194,7 @@ background-color: #f4f4fd;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
     display: block;
     margin-bottom: 72px;
     margin-top: 0;   
