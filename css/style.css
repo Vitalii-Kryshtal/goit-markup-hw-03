@@ -144,6 +144,18 @@ background-color: #f4f4fd;
 .two-section {
     color: #fff;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .list-description {
     display: flex;
@@ -205,9 +217,11 @@ background-color: #f4f4fd;
     gap: 24px;
     margin-bottom: 0;
     justify-content: center;
+    width: calc((100% - 3 * 24px) / 4);
 }
 .team-list-box {
     background: #fff;
+    border-radius: 0 0 4px 4px;
 }
 .team-name {
     font-weight: 500;
@@ -244,8 +258,14 @@ background-color: #f4f4fd;
     margin: 0 auto;
     padding-left: 0;
     row-gap: 48px;
-
 }
+
+.info-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -254,13 +274,17 @@ background-color: #f4f4fd;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 72px;
 }
 .title-portfolio-foto {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2e2f42;   
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 .text-portfolio {
     font-weight: 400;
