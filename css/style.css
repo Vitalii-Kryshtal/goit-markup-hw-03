@@ -141,6 +141,12 @@ img {
 .team-list {
 background-color: #f4f4fd;
 }
+
+.section-description {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+ 
 .two-section {
     color: #fff;
 }
